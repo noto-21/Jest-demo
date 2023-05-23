@@ -4,7 +4,7 @@ gauss = (alpha, omega) =>//Gaussian summation function
 {
     //Input validation
     if (typeof alpha !== 'number' || typeof omega !== 'number' || alpha % 1 !== 0 || omega % 1 !== 0)//If alpha or omega is not an integer, return error message
-        return "(" + alpha + ", " + omega + ") is invalid input! [0-9] only!";//Return error message
+        return `(${alpha}, ${omega}) is invalid input! [0-9] only!`;//Return error message
 
     if (alpha === omega)//If alpha and omega are equal, return alpha
         return alpha;
