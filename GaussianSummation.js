@@ -19,6 +19,6 @@ var negA = (Math.random() < 0.5) ? true : false, negB = (Math.random() < 0.5) ? 
 
 //Random test cases
 var a = (negA) ? Math.round(Math.random() * 100 * -1) : Math.round(Math.random() * 100), b = (negB) ? Math.round(Math.random() * 100 * -1) : Math.round(Math.random() * 100);//Randomly generate alpha and omega
-console.log("Gaussian summation of [" + a + ", " + b + "] is " + gauss(a, b));//Output the result
+console.log(`Gaussian summation of [${a}, ${b}] is ${gauss(a, b)}`);//Output the result
 
 module.exports = gauss;//Export the function
