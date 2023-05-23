@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "gauss",
+  "version": "1.0.0",
+  "description": "Gaussian Summation",
+  "main": "GaussianSummation.js",
+  "author": "noto-21",
+  "license": "MIT"
+}
