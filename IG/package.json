@@ -1,0 +1,11 @@
+{
+  "name": "initials",
+  "version": "1.0.0",
+  "description": "Initials generator",
+  "main": "initials-generator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "noto-21",
+  "license": "MIT"
+}
